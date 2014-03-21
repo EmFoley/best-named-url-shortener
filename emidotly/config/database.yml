@@ -1,0 +1,14 @@
+
+development:
+  adapter: postgresql
+  database: emidotly_dev
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: emidotly_test
+  pool: 5
+  timeout: 5000
+
+
