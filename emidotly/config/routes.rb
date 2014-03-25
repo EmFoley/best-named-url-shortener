@@ -1,7 +1,7 @@
 Emidotly::Application.routes.draw do
   
-  root :to => 'urls#index'
+  root :to => 'urls#new'
 
-  resources :urls, only: [:index, :create, :show, :new]
+  resources :urls, only: [:create, :show, :new]
 
 end
