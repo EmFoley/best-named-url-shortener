@@ -11,7 +11,7 @@ class UrlsController < ApplicationController
       if @url.save
         redirect_to url_path(@url)
       else
-        render @url.errors.text
+        render @url.errors.messages
       end
   end
 
