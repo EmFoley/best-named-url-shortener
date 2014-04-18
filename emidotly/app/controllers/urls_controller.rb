@@ -7,7 +7,7 @@ class UrlsController < ApplicationController
   end
 
   def create
-    @url = Url.create(long_url: params[:url],short_url: Faker::Lorem.characters(char_count=6)) 
+    @url = Url.create(long_url: params[:url][:long_url], short_url: Faker::Lorem.characters(char_count=6)) 
       if @url.save
         redirect_to url_path(@url)
       else
