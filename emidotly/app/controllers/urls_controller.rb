@@ -2,7 +2,7 @@ require 'faker'
 
 class UrlsController < ApplicationController
 
-  def new
+  def index
     @url = Url.new
   end
 
