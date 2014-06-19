@@ -1,0 +1,25 @@
+@font-face {
+      font-family: "ABITE";
+      src: url(/assets/fonts/ABITE.ttf) format("truetype");
+  }
+@font-face {
+      font-family: "ARCADE";
+      src: url(/assets/fonts/ARCADE.TTF) format("truetype");
+  }
+@font-face {
+      font-family: "EarthKid";
+      src: url(/assets/fonts/EarthKid.ttf) format("truetype");
+  }
+@font-face {
+      font-family: "trashco";
+      src: url(/assets/fonts/trashco.ttf) format("truetype");
+  }
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/-3l5ZYXddqks/T5v9Mb0iExI/AAAAAAAAAjA/7vpsQLQPw4U/s1920-d/star%252520wars%252520death%252520star%2525201920x1200%252520wallpaper_www.wallfox_net_71.jpg")
+}
+
+.container {
+  margin: 5em 30em 30em 30em;
+  font-family: "ARCADE";
+}
